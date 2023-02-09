@@ -7,7 +7,7 @@ const Header = ({ selected, totalPrice }) => {
         <div>
             <div className="navbar bg-base-100 lg:px-24">
                 <div className="flex-1">
-                    <a className="btn btn-ghost normal-case text-xl text-pink-500">Top Product</a>
+                    <a href='/' className="btn btn-ghost normal-case text-xl text-pink-500">Top Product</a>
                 </div>
                 <div className="flex-none">
                     <div className="dropdown dropdown-end">

@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 import Header from './Header';
 import Pagination from './Pagination';
 import('./products.css')
@@ -7,7 +6,7 @@ const Products = () => {
     const [products, setProducts] = useState([]);
     const [loading, setLoading] = useState(false);
     const [currentPage, setCurrentPage] = useState(1);
-    const [productPerPage, setProductPerPage] = useState(7);
+    const [productPerPage] = useState(7);
 
     // for navbar
     const [selected, setSelected] = useState(0);
